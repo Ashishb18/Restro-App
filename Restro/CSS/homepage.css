@@ -1,0 +1,67 @@
+body
+{
+  margin: 0;
+  padding: 0;
+}
+p{
+    margin-left: 10px;
+}
+header{
+
+    background-color: rgb(76, 181, 146);
+    /* width: calc( 100vw - 20px ); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;   
+    padding: 0 10px;
+}
+h3{
+    font-family: cursive;
+    color: rgb(42, 2, 33);
+    font-size: 25px;
+}
+h2{
+    display: inline-block;
+    margin-left: 10px;
+    background-color: yellow;
+    font-family: cursive;
+    font-size: 20px;
+}
+#btn{
+    background-color: #509ddc;
+    border: 2px solid rgb(62, 44, 44);
+    border-radius: 2px;
+    width: 64px;
+    height: 30px;
+    font-size: medium;
+    font-family: cursive;
+}
+img
+{
+  width: 300px;
+  margin-left: 10px;
+  
+}
+#list{
+    margin-top: 30px;
+    margin-left: 65px;
+    margin-right: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+     /* jitni columns chahiye utne add karo */
+    grid-template-rows: 1fr; 
+     /* jitni rows chahye  */
+}
+
+.img_Res{
+
+    width: 20px;
+
+}
+.restaurentContainer{
+    background-color: #7fffd4;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,70 @@
+
+<style>
+
+    .divouter{
+        /* align-items: center; */
+        /* display: flex; */
+        width: 539px;
+        margin: auto;
+        margin-top: 10%;
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 320px;
+        text-align: center;
+        background-color: rgb(246, 242, 242);
+        
+    }
+    body{
+        
+        background: #f57292;
+    }
+
+    .inner{
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .inner input{
+
+        height: 30px;
+        width:  50%;
+
+    }
+    .btn{
+
+        height: 30px;
+        margin-top: 10px;
+        width: 70px;
+        display: inline;
+    }
+    h3{
+        font-size: small;
+    }
+
+    /* #user-name{
+        display: block;
+        margin-top: 10px;
+    } */
+
+</style>
+
+<div class="divouter">
+
+
+    <div class="inner">
+        Username:&nbsp;&nbsp;<input id="user-name" placeholder="username">
+        <br><br>
+        Password:&nbsp;&nbsp;<input id="password" placeholder="password">
+    </div>
+    <h3 style="background-color: red;" id="error"></h3>
+    <button id="login" class="btn">Login</button>
+    <br><br>
+    <button class="btn"><a href="/pages/signup.html">Sign up</a></button>
+    &nbsp;&nbsp;&nbsp;
+    <button class="btn"><a href="/">Home</a></button>
+
+
+</div>
+
+<script src="/scripts/login.js"></script>
+<!-- <script src="../scripts/home.js"></script> -->

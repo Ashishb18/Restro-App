@@ -1,0 +1,89 @@
+<style>
+
+    .divouter{
+        /* align-items: center; */
+        /* display: flex; */
+        width: 545px;
+        margin: auto;
+        margin-top: 9%;
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 350px;
+        text-align: center;
+        background-color: rgb(246, 242, 242);
+        
+    }
+    body{
+        
+        background: #f57292;
+    }
+
+    .inner{
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .inner input{
+
+        height: 30px;
+        width:  50%;
+
+    }
+    .btn{
+
+        margin-top: -1px;
+        height: 28px;
+        width: 65px;
+        display: inline;
+    }
+    #user-name{
+        margin-left: 10px;
+    }
+    #phone{
+        margin-left: 31px;
+    }
+    #email{
+        margin-left: 34px;
+    }
+    #password{
+        margin-left: 10px;
+    }
+    #error{
+
+        font-size: small;
+        /* display: inline-block; */
+
+
+    }
+
+    /* #user-name{
+        display: block;
+        margin-top: 10px;
+    } */
+
+</style>
+
+<div class="divouter">
+
+
+    <div class="inner">
+        Username  :<input id="user-name" placeholder="username">
+        <br><br>
+        Phone : <input id="phone" placeholder="phone">
+        <br><br>
+        Email :<input id="email" placeholder="email">
+        <br><br>
+        Password :<input id="password" placeholder="password">
+    </div>
+    <h3 style="background-color: red;" id="error"></h3>
+    <button id="signup" class="btn">Signup</button>
+    <br><br>
+
+    <button class="btn"><a href="/pages/login.html">Login</a></button>
+    &nbsp;
+    <button class="btn"><a href="/">Home</a></button>
+
+
+</div>
+
+<script src="/scripts/signup.js"></script>
